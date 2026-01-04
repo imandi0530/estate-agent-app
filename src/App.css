@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #1e1e1e;
+  background-color:#2a2a2a;
   color: #f1f1f1;
 }
 
@@ -22,11 +22,14 @@ a:hover {
 /* 📐 LAYOUT */
 /* ============================= */
 
+
+
 .container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
+  max-width: 1400px;   /* wider like Rightmove */
+  margin: 0 auto;      /* true center */
+  padding: 30px 20px;
 }
+
 
 /* ============================= */
 /* 🔤 TYPOGRAPHY */
@@ -59,6 +62,8 @@ p {
   margin-bottom: 30px;
 }
 
+
+
 .filters label {
   display: flex;
   flex-direction: column;
@@ -79,22 +84,28 @@ p {
 /* 🏠 PROPERTY LIST */
 /* ============================= */
 
+
 .property-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(3, minmax(360px, 1fr));
+  gap: 30px;
+  justify-content: center;
 }
+
+
 
 /* ============================= */
 /* 🧱 PROPERTY CARD */
 /* ============================= */
 
+
+
 .property-card {
   background-color: #2a2a2a;
-  border-radius: 10px;
+  border-radius: 14px;
   padding: 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
-  transition: transform 0.2s ease;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+  max-width: 100%;
 }
 
 .property-card:hover {
@@ -104,11 +115,12 @@ p {
 /* 🖼 Card Image */
 .property-card-image {
   width: 100%;
-  height: 180px;
+  height: 220px;
   object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 12px;
+  border-radius: 12px;
+  margin-bottom: 16px;
 }
+
 
 /* 💰 Price */
 .property-card .price {

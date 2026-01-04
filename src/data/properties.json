@@ -6,23 +6,17 @@
       "bedrooms": 3,
       "price": 750000,
       "tenure": "Freehold",
-      "description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland...",
+      "description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station.",
       "location": "Petts Wood Road, Petts Wood, Orpington BR5",
       "images": [
-        "/images/prop1/pic1.jpg",
-        "/images/prop1/pic2.jpg",
-        "/images/prop1/pic3.jpg",
-        "/images/prop1/pic4.jpg",
-        "/images/prop1/pic5.jpg",
-        "/images/prop1/pic6.jpg"
+        "/estate-agent-app/images/prop1/pic1.jpg",
+        "/estate-agent-app/images/prop1/pic2.jpg",
+        "/estate-agent-app/images/prop1/pic3.jpg",
+        "/estate-agent-app/images/prop1/pic4.jpg",
+        "/estate-agent-app/images/prop1/pic5.jpg"
       ],
-      "floorPlan": "/images/prop1/floorplan.jpg",
-      "url": "properties/prop1.html",
-      "added": {
-        "month": "October",
-        "day": 12,
-        "year": 2022
-      }
+      "floorPlan": "/estate-agent-app/images/prop1/floorplan.jpg",
+      "added": { "month": "October", "day": 12, "year": 2025 }
     },
 
     {
@@ -31,23 +25,17 @@
       "bedrooms": 2,
       "price": 399995,
       "tenure": "Freehold",
-      "description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat...",
-      "location": "Crofton Road Orpington BR6",
+      "description": "Presented in excellent decorative order throughout is this two bedroom garden flat.",
+      "location": "Crofton Road, Orpington BR6",
       "images": [
-        "/images/prop2/pic1.jpg",
-        "/images/prop2/pic2.jpg",
-        "/images/prop2/pic3.jpg",
-        "/images/prop2/pic4.jpg",
-        "/images/prop2/pic5.jpg",
-        "/images/prop2/pic6.jpg"
+        "/estate-agent-app/images/prop2/pic1.jpg",
+        "/estate-agent-app/images/prop2/pic2.jpg",
+        "/estate-agent-app/images/prop2/pic3.jpg",
+        "/estate-agent-app/images/prop2/pic4.jpg",
+        "/estate-agent-app/images/prop2/pic5.jpg"
       ],
-      "floorPlan": "/images/prop2/floorplan.jpg",
-      "url": "properties/prop2.html",
-      "added": {
-        "month": "September",
-        "day": 14,
-        "year": 2022
-      }
+      "floorPlan": "/estate-agent-app/images/prop2/floorplan.jpg",
+      "added": { "month": "September", "day": 14, "year": 2025 }
     },
 
     {
@@ -56,23 +44,17 @@
       "bedrooms": 4,
       "price": 925000,
       "tenure": "Freehold",
-      "description": "Spacious four bedroom detached family home offering generous living accommodation and a large private garden.",
+      "description": "Spacious four bedroom detached family home offering generous living accommodation.",
       "location": "High Street, Bromley BR1",
       "images": [
-        "/images/prop3/pic1.jpg",
-        "/images/prop3/pic2.jpg",
-        "/images/prop3/pic3.jpg",
-        "/images/prop3/pic4.jpg",
-        "/images/prop3/pic5.jpg",
-        "/images/prop3/pic6.jpg"
+        "/estate-agent-app/images/prop3/pic1.jpg",
+        "/estate-agent-app/images/prop3/pic2.jpg",
+        "/estate-agent-app/images/prop3/pic3.jpg",
+        "/estate-agent-app/images/prop3/pic4.jpg",
+        "/estate-agent-app/images/prop3/pic5.jpg"
       ],
-      "floorPlan": "/images/prop3/floorplan.jpg",
-      "url": "properties/prop3.html",
-      "added": {
-        "month": "January",
-        "day": 5,
-        "year": 2023
-      }
+      "floorPlan": "/estate-agent-app/images/prop3/floorplan.jpg",
+      "added": { "month": "January", "day": 5, "year": 2026 }
     },
 
     {
@@ -81,23 +63,17 @@
       "bedrooms": 1,
       "price": 275000,
       "tenure": "Leasehold",
-      "description": "Well-presented one bedroom apartment ideal for first-time buyers or investment purposes.",
+      "description": "Well-presented one bedroom apartment ideal for first-time buyers.",
       "location": "Camden Road, London NW1",
       "images": [
-        "/images/prop4/pic1.jpg",
-        "/images/prop4/pic2.jpg",
-        "/images/prop4/pic3.jpg",
-        "/images/prop4/pic4.jpg",
-        "/images/prop4/pic5.jpg",
-        "/images/prop4/pic6.jpg"
+        "/estate-agent-app/images/prop4/pic1.jpg",
+        "/estate-agent-app/images/prop4/pic2.jpg",
+        "/estate-agent-app/images/prop4/pic3.jpg",
+        "/estate-agent-app/images/prop4/pic4.jpg",
+        "/estate-agent-app/images/prop4/pic5.jpg"
       ],
-      "floorPlan": "/images/prop4/floorplan.jpg",
-      "url": "properties/prop4.html",
-      "added": {
-        "month": "March",
-        "day": 18,
-        "year": 2023
-      }
+      "floorPlan": "/estate-agent-app/images/prop4/floorplan.jpg",
+      "added": { "month": "March", "day": 18, "year": 2026 }
     },
 
     {
@@ -106,23 +82,17 @@
       "bedrooms": 5,
       "price": 1200000,
       "tenure": "Freehold",
-      "description": "Impressive five bedroom executive home finished to a high standard throughout, offering modern family living.",
+      "description": "Impressive five bedroom executive home finished to a high standard.",
       "location": "Chislehurst Road, Chislehurst BR7",
       "images": [
-        "/images/prop5/pic1.jpg",
-        "/images/prop5/pic2.jpg",
-        "/images/prop5/pic3.jpg",
-        "/images/prop5/pic4.jpg",
-        "/images/prop5/pic5.jpg",
-        "/images/prop5/pic6.jpg"
+        "/estate-agent-app/images/prop5/pic1.jpg",
+        "/estate-agent-app/images/prop5/pic2.jpg",
+        "/estate-agent-app/images/prop5/pic3.jpg",
+        "/estate-agent-app/images/prop5/pic4.jpg",
+        "/estate-agent-app/images/prop5/pic5.jpg"
       ],
-      "floorPlan": "/images/prop5/floorplan.jpg",
-      "url": "properties/prop5.html",
-      "added": {
-        "month": "June",
-        "day": 9,
-        "year": 2023
-      }
+      "floorPlan": "/estate-agent-app/images/prop5/floorplan.jpg",
+      "added": { "month": "June", "day": 9, "year": 2026 }
     },
 
     {
@@ -131,23 +101,17 @@
       "bedrooms": 3,
       "price": 540000,
       "tenure": "Leasehold",
-      "description": "Three bedroom modern apartment benefiting from a private balcony and excellent transport connections.",
+      "description": "Three bedroom modern apartment benefiting from excellent transport links.",
       "location": "Greenwich High Road, London SE10",
       "images": [
-        "/images/prop6/pic1.jpg",
-        "/images/prop6/pic2.jpg",
-        "/images/prop6/pic3.jpg",
-        "/images/prop6/pic4.jpg",
-        "/images/prop6/pic5.jpg",
-        "/images/prop6/pic6.jpg"
+        "/estate-agent-app/images/prop6/pic1.jpg",
+        "/estate-agent-app/images/prop6/pic2.jpg",
+        "/estate-agent-app/images/prop6/pic3.jpg",
+        "/estate-agent-app/images/prop6/pic4.jpg",
+        "/estate-agent-app/images/prop6/pic5.jpg"
       ],
-      "floorPlan": "/images/prop6/floorplan.jpg",
-      "url": "properties/prop6.html",
-      "added": {
-        "month": "August",
-        "day": 21,
-        "year": 2023
-      }
+      "floorPlan": "/estate-agent-app/images/prop6/floorplan.jpg",
+      "added": { "month": "August", "day": 21, "year": 2026 }
     },
 
     {
@@ -156,23 +120,17 @@
       "bedrooms": 2,
       "price": 485000,
       "tenure": "Freehold",
-      "description": "Charming two bedroom cottage located close to local amenities and transport links.",
+      "description": "Charming two bedroom cottage located close to local amenities.",
       "location": "Station Road, Dartford DA1",
       "images": [
-        "/images/prop7/pic1.jpg",
-        "/images/prop7/pic2.jpg",
-        "/images/prop7/pic3.jpg",
-        "/images/prop7/pic4.jpg",
-        "/images/prop7/pic5.jpg",
-        "/images/prop7/pic6.jpg"
+        "/estate-agent-app/images/prop7/pic1.jpg",
+        "/estate-agent-app/images/prop7/pic2.jpg",
+        "/estate-agent-app/images/prop7/pic3.jpg",
+        "/estate-agent-app/images/prop7/pic4.jpg",
+        "/estate-agent-app/images/prop7/pic5.jpg"
       ],
-      "floorPlan": "/images/prop7/floorplan.jpg",
-      "url": "properties/prop7.html",
-      "added": {
-        "month": "November",
-        "day": 2,
-        "year": 2023
-      }
+      "floorPlan": "/estate-agent-app/images/prop7/floorplan.jpg",
+      "added": { "month": "November", "day": 2, "year": 2026 }
     }
   ]
 }
