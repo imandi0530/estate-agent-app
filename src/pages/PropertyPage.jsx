@@ -3,29 +3,39 @@ import { useState } from "react";
 import propertiesData from "../data/properties.json";
 
 function PropertyPage() {
+
+  /* Section: Get property ID from URL */
   const { id } = useParams();
 
+  /* Section: Find selected property from JSON data */
   const property = propertiesData.properties.find(
     (p) => p.id === id
   );
 
+  /* Section: Safety check for invalid property ID */
   if (!property) {
     return <p>Property not found</p>;
   }
 
+  /* Section: State for image gallery */
   const [mainImage, setMainImage] = useState(property.images[0]);
+
+  /* Section: State for tab navigation */
   const [activeTab, setActiveTab] = useState("description");
 
   return (
     <div className="container">
-      <h2>{property.type}</h2>
 
+      {/* Section: Basic property information */}
+      <h2>{property.type}</h2>
       <p><strong>Price:</strong> £{property.price}</p>
       <p><strong>Bedrooms:</strong> {property.bedrooms}</p>
       <p><strong>Location:</strong> {property.location}</p>
 
+      {/* Section: Main property image */}
       <img src={mainImage} alt="Property" className="gallery-main" />
 
+      {/* Section: Thumbnail image gallery */}
       <div className="thumbnails">
         {property.images.map((img, index) => (
           <img
@@ -40,6 +50,7 @@ function PropertyPage() {
 
       <hr />
 
+      {/* Section: Tab navigation */}
       <div className="tabs">
         <button onClick={() => setActiveTab("description")}>
           Description
@@ -52,11 +63,15 @@ function PropertyPage() {
         </button>
       </div>
 
+      {/* Section: Tab content */}
       <div className="tab-content">
+
+        {/* Description tab */}
         {activeTab === "description" && (
           <p>{property.description}</p>
         )}
 
+        {/* Floor plan tab */}
         {activeTab === "floorplan" && (
           <img
             src={property.floorPlan}
@@ -65,6 +80,7 @@ function PropertyPage() {
           />
         )}
 
+        {/* Google map tab */}
         {activeTab === "map" && (
           <iframe
             title="map"

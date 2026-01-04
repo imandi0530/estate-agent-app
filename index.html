@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Section: Basic document metadata -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-  http-equiv="Content-Security-Policy"
-  content="
-    default-src 'self';
-    script-src 'self' 'unsafe-inline' 'unsafe-eval';
-    style-src 'self' 'unsafe-inline';
-    img-src 'self' data: https:;
-    frame-src https://www.google.com;
-  "
-/>
 
+    <!-- Section: Client-Side Security (Content Security Policy)
+         Prevents loading malicious scripts, images, and frames -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+        script-src 'self' 'unsafe-inline' 'unsafe-eval';
+        style-src 'self' 'unsafe-inline';
+        img-src 'self' data: https:;
+        frame-src https://www.google.com;
+      "
+    />
 
     <title>Estate Agent App</title>
   </head>
+
   <body>
+    <!-- Section: React root container -->
     <div id="root"></div>
+
+    <!-- Section: Load React application entry point -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

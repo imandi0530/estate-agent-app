@@ -4,7 +4,8 @@ import PropertyCard from "../components/property/PropertyCard";
 import Favourites from "../components/Favourites";
 
 function SearchPage({ favourites, addFavourite, removeFavourite }) {
-  // 🔹 Filter states (React widgets)
+
+  /* Section: Search filter state management */
   const [type, setType] = useState("Any");
   const [minPrice, setMinPrice] = useState("");
   const [maxPrice, setMaxPrice] = useState("");
@@ -13,7 +14,7 @@ function SearchPage({ favourites, addFavourite, removeFavourite }) {
   const [addedAfter, setAddedAfter] = useState("");
   const [postcode, setPostcode] = useState("");
 
-  // 🔹 Filtering logic (ALL criteria work together)
+  /* Section: Property filtering logic using multiple criteria */
   const filteredProperties = propertiesData.properties.filter((property) => {
     if (type !== "Any" && property.type !== type) return false;
 
@@ -40,9 +41,11 @@ function SearchPage({ favourites, addFavourite, removeFavourite }) {
 
   return (
     <div className="container">
+
+      {/* Section: Page heading */}
       <h2>Property Listings</h2>
 
-      {/* 🔍 Search Form (React Widgets + HTML5) */}
+      {/* Section: Search form using React widgets and HTML5 inputs */}
       <div className="filters">
         <label>
           Property Type
@@ -127,7 +130,7 @@ function SearchPage({ favourites, addFavourite, removeFavourite }) {
         </label>
       </div>
 
-      {/* 🏠 Results */}
+      {/* Section: Filtered property results */}
       <div className="property-list">
         {filteredProperties.length === 0 ? (
           <p>No properties found.</p>
@@ -144,7 +147,7 @@ function SearchPage({ favourites, addFavourite, removeFavourite }) {
 
       <hr />
 
-      {/* ❤️ Favourites */}
+      {/* Section: Favourites list */}
       <Favourites
         favourites={favourites}
         removeFavourite={removeFavourite}
