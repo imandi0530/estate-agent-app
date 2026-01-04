@@ -6,7 +6,8 @@ function PropertyCard({ property, addFavourite }) {
 
       {/* Display main property image */}
       <img
-        src={property.images[0]}
+        src={property.images?.[0] || "/images/placeholder.jpg"}
+
         alt="Property"
         className="property-card-image"
       />
@@ -19,8 +20,11 @@ function PropertyCard({ property, addFavourite }) {
 
       {/* Display shortened property description */}
       <p className="description">
-        {property.description.substring(0, 90)}...
+      {property.description
+        ? property.description.substring(0, 90) + "..."
+        : "No description available"}
       </p>
+
 
       {/* Navigation and user actions */}
       <div className="actions">
