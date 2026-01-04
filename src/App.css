@@ -1,6 +1,4 @@
 /* GLOBAL STYLES */
-
-
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -17,20 +15,14 @@ a:hover {
   text-decoration: underline;
 }
 
-
 /* LAYOUT */
-
 .container {
   max-width: 1400px;   
   margin: 0 auto;      
   padding: 30px 20px;
 }
 
-
-
 /*  TYPOGRAPHY */
-
-
 h2 {
   font-size: 26px;
   margin-bottom: 20px;
@@ -49,16 +41,12 @@ p {
 
  
 /* SEARCH FILTERS */
-
-
 .filters {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 15px;
   margin-bottom: 30px;
 }
-
-
 
 .filters label {
   display: flex;
@@ -78,9 +66,6 @@ p {
 
 
 /* PROPERTY LIST */
-
-
-
 .property-list {
   display: grid;
   grid-template-columns: repeat(3, minmax(360px, 1fr));
@@ -88,14 +73,7 @@ p {
   justify-content: center;
 }
 
-
-
-
 /* PROPERTY CARD */
-
-
-
-
 .property-card {
   background-color: #2a2a2a;
   border-radius: 14px;
@@ -116,7 +94,6 @@ p {
   border-radius: 12px;
   margin-bottom: 16px;
 }
-
 
 /* Price */
 .property-card .price {
@@ -140,10 +117,7 @@ p {
   align-items: center;
 }
 
-
 /* BUTTONS */
-
-
 button {
   margin-top: 10px;
   padding: 8px 12px;
@@ -158,10 +132,7 @@ button:hover {
   background-color: #666;
 }
 
-
 /* PROPERTY PAGE */
-
-
 .gallery-main {
   width: 100%;
   max-width: 500px;
@@ -216,7 +187,6 @@ button:hover {
   height: 300px;
   border: none;
 }
-
 
 /* RESPONSIVE DESIGN */
 
